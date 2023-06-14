@@ -101,6 +101,7 @@ class ADXL343:
         accx, accy, accz = adx.acceleration
 
     """
+
     # Device Data
     _device_id = RegisterStruct(_REG_WHOAMI, "B")
     # Acceleration Data
