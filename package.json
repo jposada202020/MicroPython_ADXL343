@@ -1,8 +1,10 @@
 {
   "urls": [
-    ["micropython_adxl343/__init__.py", "github:jposada202020/MicroPython_ADXL343/micropython_adxl343/__init__.py"],
-    ["micropython_adxl343/i2c_helpers.py", "github:jposada202020/MicroPython_ADXL343/micropython_adxl343/i2c_helpers.py"],
-    ["micropython_adxl343/adxl343.py", "github:jposada202020/MicroPython_ADXL343/micropython_adxl343/adxl343.py"]
+    ["micropython__neopixel_matrix/__init__.py", "github:leosok/micropython__neopixel_matrix/micropython__neopixel_matrix/__init__.py"],
+    ["micropython__neopixel_matrix/neopixel_matrix.py", "github:leosok/micropython__neopixel_matrix/micropython__neopixel_matrix/neopixel_matrix.py"],
+    ["micropython__neopixel_matrix3/neopixel_matrix_async.py", "github:leosok/micropython__neopixel_matrix/micropython__neopixel_matrix/neopixel_matrix_async.py"],
+    ["micropython__neopixel_matrix3/neopixel_matrix_mock.py", "github:leosok/micropython__neopixel_matrix/micropython__neopixel_matrix/neopixel_matrix_mock.py"]
+
   ],
   "version": "0.1"
 }
