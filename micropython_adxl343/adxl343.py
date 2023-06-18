@@ -86,13 +86,13 @@ class ADXL343:
     .. code-block:: python
 
         from machine import Pin, I2C
-        import adxl343
+        from micropython_adxl343 import adxl343
 
     Once this is done you can define your `machine.I2C` object and define your sensor object
 
     .. code-block:: python
 
-        i2c = I2C(sda=Pin28), scl=Pin(3))
+        i2c = I2C(1, sda=Pin(2), scl=Pin(3))
         adxl = adxl343.ADXL343(i2c)
 
     Now you have access to the attributes

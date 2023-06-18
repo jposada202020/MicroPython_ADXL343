@@ -45,7 +45,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["adxl343"]
+packages = ["micropython_adxl343"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
