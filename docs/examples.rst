@@ -66,6 +66,6 @@ Inactivity mode settings
 
 Example showing the Inactivity mode setting
 
-.. literalinclude:: ../examples/ADXL343_inactivity_mode.py
-    :caption: examples/ADXL343_inactivity_mode.py
+.. literalinclude:: ../examples/adxl343_inactivity_mode.py
+    :caption: examples/adxl343_inactivity_mode.py
     :lines: 5-
