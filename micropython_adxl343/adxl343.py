@@ -267,7 +267,6 @@ class ADXL343:
 
     @tap_threshold.setter
     def tap_threshold(self, value: float) -> None:
-
         if 156 < value < 1:
             raise ValueError("Value should be a valid tap_threshold setting")
         self._tap_threshold = int(value / _STANDARD_GRAVITY / 0.0627451)

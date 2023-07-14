@@ -16,5 +16,5 @@ while True:
         print("Current Inactivity mode setting: ", adx.inactivity_mode)
         for _ in range(10):
             accx, accy, accz = adx.acceleration
-            print("x:{:.2f}m/s2, y:{:.2f}m/s2, z:{:.2f}m/s2".format(accx, accy, accz))
+            print(f"x:{accx:.2f}m/s2, y:{accy:.2f}m/s2, z:{accz:.2f}m/s2")
             time.sleep(0.5)

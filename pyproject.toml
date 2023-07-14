@@ -28,7 +28,6 @@ keywords = [
     "acceleration",
     "accelerometer",
     "adxl343",
-    "micropython",
     "gravity",
     "sensor",
     "driver",
