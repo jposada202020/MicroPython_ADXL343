@@ -15,4 +15,5 @@ adx.activity_mode = adxl343.ACTIVITY_ENABLED
 
 while True:
     print(f"Activity detected {adx.activity_detected}")
+    print()
     time.sleep(0.5)

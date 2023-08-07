@@ -16,4 +16,5 @@ adx.inactivity_duration = 3
 
 while True:
     print(f"Inactivity detected {adx.inactivity_detected}")
+    print()
     time.sleep(0.5)

@@ -18,5 +18,6 @@ while True:
         for _ in range(10):
             accx, accy, accz = adx.acceleration
             print(f"x:{accx:.2f}m/s2, y:{accy:.2f}m/s2, z:{accz:.2f}m/s2")
+            print()
             time.sleep(0.5)
         adx.acceleration_range = acceleration_range

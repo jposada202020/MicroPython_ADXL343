@@ -17,4 +17,5 @@ adx.tap_duration = 625  # us
 
 while True:
     print(f"Single Tap detected {adx.single_tap_activated}")
+    print()
     time.sleep(0.5)

@@ -12,4 +12,5 @@ adx = adxl343.ADXL343(i2c)
 while True:
     accx, accy, accz = adx.acceleration
     print(f"x:{accx:.2f}m/s2, y:{accy:.2f}m/s2, z:{accz:.2f}m/s2")
+    print()
     time.sleep(0.5)

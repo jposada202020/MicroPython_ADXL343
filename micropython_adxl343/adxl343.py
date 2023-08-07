@@ -143,7 +143,7 @@ class ADXL343:
         self._address = address
 
         if self._device_id != 0xE5:
-            raise RuntimeError("Failed to find ADXL343")
+            raise RuntimeError("Failed to find the ADXL343 sensor")
 
         self._measurement_mode = True
         self._resolution_mode = True

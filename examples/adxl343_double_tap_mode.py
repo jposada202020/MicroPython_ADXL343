@@ -19,4 +19,5 @@ adx.tap_window = 2.50  # ms
 
 while True:
     print(f"Double Tap detected {adx.double_tap_activated}")
+    print()
     time.sleep(0.5)
