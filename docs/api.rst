@@ -1,4 +1,4 @@
-MicroPython ADXL343 Library
+MicroPython ADXL343 Driver
 =========================================
 
 
